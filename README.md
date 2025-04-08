@@ -28,17 +28,17 @@ Send-Tea-Bot la mot ung dung Node.js giup tu dong gui mot luong TEA ngau nhien (
    git clone https://github.com/tieumanthau2k4/send-tea-bot.git
    cd send-tea-bot
 2. Cai dat dependencies:
-```npm install```
+   npm install
 3 Cau hinh file .env:
-```RPC_URL=https://tea-sepolia.g.alchemy.com/v2/YOUR_API_KEY```
+  RPC_URL=https://tea-sepolia.g.alchemy.com/v2/YOUR_API_KEY
 Cach su dung
  1 Chuan bi du lieu:
   .Them danh sach dia chi vao addresses.json:
-   ```["0xAddress1", "0xAddress2", ...]```
+    ["0xAddress1", "0xAddress2", ...]
   .Them private key vao wallets.json
-    ```["privateKey1", "privateKey2", ...]```
+    ["privateKey1", "privateKey2", ...]
  2 Chay bot
- ```node index.js```
+   node index.js
  3 Xem log
    .Log giao dich: log.txt
    .Log loi: error.log
