@@ -38,7 +38,9 @@ Cach su dung
   .Them private key vao wallets.json
     ["privateKey1", "privateKey2", ...]
  2 Chay bot
-   node index.js
+   ```bash
+      node index.js
+    ```
  3 Xem log
    .Log giao dich: log.txt
    .Log loi: error.log
